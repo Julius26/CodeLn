@@ -1,0 +1,132 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.topnav{
+    background-color: rgba(173, 173, 166, 100%);
+    overflow: hidden;
+    width: 100%;
+    height: 100%;
+
+}
+
+.checked {
+    color: orange;
+  }
+
+.topnav a{
+    float: left;
+    color: #0000008c;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+    
+}
+
+.topnav,a,fontweight{
+    font-weight: bold;
+}
+
+.firstdiv {
+    text-align: center;
+    background-image: url(../images/front);
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    height: 600px;
+    width: 100%;
+    /* line-height: 9em; */
+}
+.responsive{
+    width: 100%;
+    height: auto;
+}
+.seconddiv{
+    line-height: 20;
+    width: 100%;
+    background-size: cover;
+    height: 100%;
+    background-color: rgb(225, 0, 255);
+}
+
+.cards{
+    background-color: rgb(253, 253, 253);
+    height: 100px;
+    width: 100%;
+    margin:0px auto;
+    display: flex;
+    color: black;
+    
+}
+
+.cards h2{
+    text-align:right;
+    text-decoration: underline;
+    text-decoration-color: darkred; 
+    text-decoration-line: 10px;
+    /* border-bottom: 10px solid black;
+    display: inline-block; */
+    
+}
+
+.sectincourses{
+    /* padding: 20px; */
+    color: black;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    background-color: rgb(253, 253, 253);  
+}
+
+
+.card {
+    /* Add shadows to create the "card" effect */
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+
+  .coding{
+      display: flex;
+      width: 100%;
+      height: 100%;
+      background-color: rgb(255, 255, 255);
+  }
+  .coding1{
+      color: black;
+      background-color: aliceblue;
+      width: 100%;
+      height: 100%;
+      }
+
+  .gaming{
+    display: flex;
+    width: 100%;
+    height: 5 0px;
+    background-color: rgb(255, 255, 255);
+  }
+  .gaming1{
+    color: black;
+    background-color: aliceblue;
+    width: 100%;
+    height: 100%;
+  }
+
+  .last{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+  }
